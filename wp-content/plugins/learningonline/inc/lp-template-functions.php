@@ -330,7 +330,7 @@ if ( !function_exists( 'learning_online_course_retake_button' ) ) {
 
 if ( !function_exists( 'learning_online_course_buttons' ) ) {
 	/**
-	 * Display course retake button
+	 * Display course enroll button
 	 */
 	function learning_online_course_buttons() {
 		learning_online_get_template( 'single-course/buttons.php' );
