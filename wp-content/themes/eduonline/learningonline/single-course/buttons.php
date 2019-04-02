@@ -78,7 +78,7 @@ $notice_enough_student = apply_filters( 'learning_online_course enough students_
                 <?php do_action( 'learning_online_after_enroll_button' ); ?>
             </form>
         <?php endif; ?>
-        <a href="/courses/<?php echo $couse->post_name?>" class="button enroll-button">
+        <a href="<?php the_permalink(); ?>" class="button enroll-button">
             <?php do_action( 'learning_online_before_enroll_button' ); ?>
             <?php echo $enroll_button_text; ?>
             <?php do_action( 'learning_online_after_enroll_button' ); ?>
