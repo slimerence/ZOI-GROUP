@@ -1,2 +1,3 @@
-wp-content/uploads/*
-wp-admin/*
+wp-content/uploads/
+wp-admin/
+.idea/
