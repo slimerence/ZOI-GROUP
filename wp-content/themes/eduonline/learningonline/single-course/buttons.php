@@ -67,15 +67,23 @@ $notice_enough_student = apply_filters( 'learning_online_course enough students_
 			<?php esc_html_e( 'Finish course', 'learningonline' ); ?>
         </button>
 	<?php elseif ( $user->can( 'enroll-course', $course->id ) === true ) : ?>
-        <form name="enroll-course" class="enroll-course" method="post" enctype="multipart/form-data">
-			<?php do_action( 'learning_online_before_enroll_button' ); ?>
+        <?php if (false) :?>
+            <form name="enroll-course" class="enroll-course" method="post" enctype="multipart/form-data">
+                <?php do_action( 'learning_online_before_enroll_button' ); ?>
 
-            <input type="hidden" name="lp-ajax" value="enroll-course" />
-            <input type="hidden" name="enroll-course" value="<?php echo $course->id; ?>" />
-            <button class="button enroll-button" data-block-content="yes"><?php echo $enroll_button_text; ?></button>
+                <input type="hidden" name="lp-ajax" value="enroll-course" />
+                <input type="hidden" name="enroll-course" value="<?php echo $course->id; ?>" />
+                <button class="button enroll-button" data-block-content="yes"><?php echo $enroll_button_text; ?></button>
 
-			<?php do_action( 'learning_online_after_enroll_button' ); ?>
-        </form>
+                <?php do_action( 'learning_online_after_enroll_button' ); ?>
+            </form>
+        <?php endif; ?>
+        <a href="/courses/<?php echo $couse->post_name?>" class="button enroll-button">
+            <?php do_action( 'learning_online_before_enroll_button' ); ?>
+            <?php echo $enroll_button_text; ?>
+            <?php do_action( 'learning_online_after_enroll_button' ); ?>
+        </a>
+
 	<?php elseif ( $user->can( 'purchase-course', $course->id ) ) : ?>
         <form name="purchase-course" class="purchase-course" method="post" enctype="multipart/form-data">
 			<?php do_action( 'learning_online_before_purchase_button' ); ?>
