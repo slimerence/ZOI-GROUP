@@ -12,6 +12,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 $course = LP()->global['course'];
+print_r($course);
 
 if ( !$course->is_required_enroll() ) {
 	return;
