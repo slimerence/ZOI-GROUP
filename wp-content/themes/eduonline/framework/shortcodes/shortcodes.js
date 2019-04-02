@@ -1,0 +1,1 @@
+!function(t){"use strict";function e(t,e,n,a){if(a)var r=0,u=parseInt(a/t),c=setInterval(function(){t>r-1?n.html(r):(n.html(e),clearInterval(c)),r++},u);else n.html(e)}t(document).ready(function(){t(".jws_theme_stats .num").each(function(){var n=t(this),a=n.attr("data-timer"),r=n.attr("data-number");e(a,r,n,300)})})}(jQuery);

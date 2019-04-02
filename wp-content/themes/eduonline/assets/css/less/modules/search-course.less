@@ -1,0 +1,110 @@
+.search-course-container{
+	background-color: @main-color;
+	@media(min-width: @screen-md){
+		height: 116px;
+		padding-right: 10px;
+	}
+	
+	@media(max-width: @screen-md - 1){
+		text-align: center;
+		padding-top: 25px;
+	}
+	.tb-search-heading{
+		@media(min-width: @screen-md){
+			max-width: 260px;
+		}
+		@media(min-width: @screen-md) and (max-width: @screen-lg - 1){
+			max-width: 160px;
+		}
+		
+		position: relative;
+		color: #fff;
+		width: 100%;
+		display: inline-block;
+		h4{
+			color: #fdfcfb;
+			font-size: 21px;
+			margin-bottom: 0;
+			text-transform: uppercase;
+			line-height: 28px;
+			@media(min-width: @screen-md) and (max-width: @screen-lg - 1){
+				font-size: 18px;
+				line-height: 20px;
+			}
+		}
+		p{
+			color: #b2cbe6;
+			margin-bottom: 0!important;
+		}
+		@media(min-width: @screen-md){
+			height: 116px;
+			&:after{
+				content:"";
+				width: 38px;
+				position: absolute;
+				height: 116px;
+				right: -38px;
+				display: inline-block;
+				background: url(assets/images/border.png) no-repeat center center;
+				top: 0;
+			}
+			.tb-heading-content{
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				left: 20px;
+				padding-top: 1px;
+			}
+		}
+	}
+	form{
+		@media(min-width: @screen-md){
+			width: ~"calc(100% - 265px)";
+		}
+		@media(min-width: @screen-md) and (max-width: @screen-lg - 1){
+			width: ~"calc(100% - 165px)";
+		}
+		display: inline-block;
+		@media(min-width: @screen-md){
+			text-align: right;
+		}
+		vertical-align: top;
+		padding-top: 31px;
+		input,select{
+			height: 50px;
+			padding: 0 15px;
+			margin-bottom: 0;
+			width: 220px;
+			@media(min-width: @screen-md) and (max-width: @screen-lg - 1){
+				width: 180px;
+			}
+			.placeholder(#898989);
+			@media(max-width: @screen-md - 1){
+				margin-bottom: 10px;
+			}
+		}
+		input[type="submit"]{
+			padding: 0;
+			width: 115px;
+			text-align: center;
+			line-height: 48px;
+			vertical-align: initial;
+			border: 2px solid #fff;
+			text-transform: uppercase;
+			color: #fff;
+			font-size: 14px;
+			font-family: @jws_theme_google_font_1;
+			font-weight: bold;
+			&:hover{
+				background-color: #fff;
+				color: @main-color;
+			}
+		}
+		select{
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background: url(assets/images/arrow-down.png) no-repeat 98% center #fff;
+		}
+	}
+}

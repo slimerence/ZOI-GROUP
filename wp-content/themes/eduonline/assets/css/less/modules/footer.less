@@ -1,0 +1,136 @@
+.jws_theme_footer{
+	.widget img{
+		width: initial;
+		height: auto;
+	}
+	a:hover{
+		color:@main-color;
+	}
+	h5.wg-title{
+		color:#fff;
+		font-size: 16px;
+		margin-bottom:12px;
+		text-transform: uppercase;
+		font-weight: bold;
+		}
+	.jws_theme_footer_center_once{
+		img{
+			margin-bottom: 25px;
+		}
+		.text-desc{
+			color: #e1e1e1;
+		}
+	}
+	.wg-footer-socials{
+		margin-top: 65px;
+	}
+	.jws_theme_footer_center_three{
+		ul{
+			padding: 0;
+			margin: 0;
+			li{
+				a{
+					color: #e1e1e1;
+					line-height: 33px;
+				}
+				&:hover{
+					a{
+						color: @main-color;
+					}
+				}
+			}
+		}
+		
+	}
+	.jws_theme_footer_bottom_once{
+		color: #898989;
+		font-family: @jws_theme_google_font_1;
+	}
+	.widget_jws_theme_testimonial{	
+		.wg-title{
+			margin-bottom: 25px;
+		}
+		li{
+			background-color: #64646c;
+			padding: 18px;
+			&:not(:last-child){
+				margin-bottom: 1px;
+			}
+			&:last-child{
+				padding-bottom: 18px;
+			}
+		}
+		.tb-image{
+			width: 84px;
+			float: left;
+		}
+		.tb-content{
+			width: ~'calc(100% - 84px)';
+			@media(min-width: @screen-md) and( max-width: @screen-lg - 1){
+				width: 100%;
+				margin-top: 10px;
+			}
+			float: left;
+			margin-top: -13px;
+			.tb-name,.tb-position{
+				display: inline-block;
+			}
+			.tb-name{
+				color: #e8940c;
+				font-size: 14px;
+				margin-bottom: 2px;
+				.tb-position{
+					color: #898989;
+					font-size: 13px;
+				}
+			}
+			.tb-item-content{
+				color: #fff;
+			}
+		}
+	
+	}
+	.jws_theme_footer_center_four{
+		color: #e1e1e1;
+		.wg-title{
+			margin-bottom: 17px;
+		}
+		ul{
+			padding: 0;
+			margin: 0;
+			margin-top: 15px;
+			li{
+				line-height: 20px;
+				color: #e1e1e1;
+				line-height: 32px;
+				i{
+					width: 45px;
+					height: 45px;
+					line-height: 45px;
+					text-align: center;
+					font-size: 18px;
+					border: 1px solid #fff;
+					display: inline-block;
+					vertical-align: top;
+				}
+				strong{
+					display: block;
+				}
+				>div{
+					width: ~'calc( 100% - 45px)';
+					display: inline-block;
+					margin-left: -5px;
+					vertical-align: top;
+					position: relative;
+					top: -12px;
+					padding-left: 20px;
+				}
+			}
+		}
+	}
+	@media(max-width: @screen-sm - 1){
+		h5.wg-title{
+			margin-top: 35px;
+		}
+	}
+}

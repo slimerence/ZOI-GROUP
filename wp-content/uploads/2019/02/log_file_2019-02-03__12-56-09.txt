@@ -1,0 +1,89 @@
+
+---Downloaded files---
+The import files for: Eduonline were successfully downloaded!
+Initial max execution time = 900
+Files info:
+Site URL = http://zoi.webmelbourne.com
+Data file = /var/www/zoi.group/wp-content/themes/eduonline/sampledata/sample.xml
+Widget file = /var/www/zoi.group/wp-content/themes/eduonline/sampledata/widgets.wie
+Customizer file = not defined!
+Redux files:
+jws_theme_options -> /var/www/zoi.group/wp-content/themes/eduonline/sampledata/options.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Right Sidebar : 
+
+Categories - No Title - Widget already exists
+Search - Search - Imported
+Post List Widget - Recent posts - Imported
+Archives - No Title - Widget already exists
+
+Header 1 Top Widget 1 : 
+
+@Eduonline Search &amp; Account Widget - No Title - Imported
+
+Header 1 Top Widget 2 : 
+
+@Eduonline Search &amp; Account Widget - No Title - Imported
+
+Header 2 Top Widget 1 : 
+
+@Eduonline Socials - No Title - Imported
+
+Header 2 Top Widget 2 : 
+
+@Eduonline Search &amp; Account Widget - No Title - Imported
+
+Footer Top Widget 1 : 
+
+@Eduonline Newsletter - Sign up for newsletter - Imported
+
+Footer Center Widget 1 : 
+
+Text - No Title - Imported
+@Eduonline Socials - No Title - Imported
+
+Footer Center Widget 2 : 
+
+@Eduonline Testimonial - Testimonials - Imported
+
+Footer Center Widget 3 : 
+
+Text - Quick Links - Imported
+
+Footer Center Widget 4 : 
+
+Text - About us - Imported
+
+Footer Bottom Widget 1 : 
+
+Text - No Title - Imported
+
+Maps Single Event : 
+
+@Education map - No Title - Imported
+
+Course Sidebar : 
+
+@Education Course Categories  - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: jws_theme_options finished successfully!
+
+---pt-ocdi/after_import---
+

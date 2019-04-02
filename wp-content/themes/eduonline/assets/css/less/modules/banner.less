@@ -1,0 +1,143 @@
+.main-content .ro-banner-h2{
+	background-position: bottom right !important;
+}
+.ro-banner-h2{
+	.tb-blog{
+		margin-bottom: 0;
+		
+	}
+}
+.no-container .row .ro-banner-right{
+	max-width: 570px;
+	padding-left: 55px;
+	.vc_tta-container{
+		margin-top: 30px;
+	}
+	@media(max-width: @screen-lg - 1){
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	@media(max-width: @screen-sm - 1){
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.vc_tta.vc_tta-accordion{
+		.vc_tta-panel{
+			margin-bottom: 13px;
+			.vc_tta-panel-body{
+				padding-left: 0;
+				padding-right: 0;
+				border: none;
+				padding-bottom: 8px;
+				padding-top: 25px;
+			}
+		}
+		.vc_tta-panel-heading{
+			h4{
+				font-size: 14px;
+				text-transform: uppercase;
+				color: #707070;
+				>a{
+					padding-top: 0;
+					padding-bottom: 0;
+					height: 48px;
+					line-height: 48px;
+					position: relative;
+					&:before{
+						content='';
+						position: absolute;
+						left: 0;
+						top:0;
+						border-left: 43px solid @main-color;
+						border-bottom: 48px solid transparent;
+					}
+					.vc_tta-controls-icon{
+						left: 8px;
+						top: 9px;
+						color: #fff;
+						transform: initial;
+						&:before,&:after{
+							border-color: #fff;
+						}
+					}
+					span{
+						margin-left: 18px;
+					}
+				}
+				
+			}
+		}
+	}
+	.vc_tta-color-white.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading{
+		background-color: #f8f7f7;
+		border: none;
+		
+	}
+}
+
+// learn step
+
+
+.tb-step-register{
+	text-align: center;
+	position: relative;
+	color: #acacac;
+	&:before{
+		height: 1px;
+		width: 100%;
+		border-top: 1px dashed #636363; 
+		content="";
+		left: 0;
+		top: 27px;
+		position: absolute;
+	}
+	.tb-step-item{
+		>span{
+			width: 55px;
+			height: 55px;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			line-height: 55px;
+			color: #fff;
+			background-color: @main-color;
+			font-size: 23px;
+			font-family: @jws_theme_google_font_1;
+			font-weight: bold;
+			display: block;
+			.easing-animation;
+			margin-bottom: 13px;
+		}
+		h4{
+			font-size: 14px;
+			color: #707070;
+			font-family: @jws_theme_google_font_1;
+			.easing-animation;
+			margin-bottom: 5px;
+		}
+		&:hover{
+			>span{
+				background-color: #e8940c;
+			}
+			h4{
+				color: #e8940c;
+			}
+		}
+	}
+}
+.col-20{
+	width: 20% !important;
+	.easing-animation;
+
+}
+@media (max-width: @screen-md - 1){
+	body .col-20 {
+		width: 50% !important;
+		float: left;
+	}
+}
+@media (max-width: 500px){
+	body .col-20 {
+		width: 100% !important;
+	}
+}
