@@ -52,7 +52,7 @@ if ( !defined( 'ABSPATH' ) ) {
 										
 					if($show_excerpt) echo '<div class="tb-blog-excerpt">'.jws_theme_custom_excerpt( $excerpt_lenght ,$excerpt_more).'</div>';
 					
-					do_action( 'learning_online_single_course_students' ); 
+					/*do_action( 'learning_online_single_course_students' ); */
 
 					?>
 										
@@ -87,10 +87,17 @@ if ( !defined( 'ABSPATH' ) ) {
 								?>
 							</li>
 						<?php }?>
+
 					</ul>
 					<div class="tb-pricce-cart">
-						<?php do_action( 'learning_online_courses_loop_single_item_action' ); ?>
-					
+						<?php if(false):; ?>
+					        <?php do_action( 'learning_online_courses_loop_single_item_action' ); ?>
+                        <?php endif ?>
+                        <a href="/apply-now" class="button enroll-button">
+                            <?php do_action( 'learning_online_before_enroll_button' ); ?>
+                            <?php echo $enroll_button_text; ?>
+                            <?php do_action( 'learning_online_after_enroll_button' ); ?>
+                        </a>
 					</div>
 				</div>
 			</div>
