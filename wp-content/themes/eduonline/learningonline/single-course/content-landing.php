@@ -93,11 +93,13 @@ if ( !defined( 'ABSPATH' ) ) {
 						<?php if(false):; ?>
 					        <?php do_action( 'learning_online_courses_loop_single_item_action' ); ?>
                         <?php endif ?>
-                        <a href="/apply-now" class="button enroll-button">
-                            <?php do_action( 'learning_online_before_enroll_button' ); ?>
-                            Enroll
-                            <?php do_action( 'learning_online_after_enroll_button' ); ?>
-                        </a>
+                        <div class="learning-online-course-buttons">
+                            <a href="/apply-now" class="button enroll-button">
+                                <?php do_action( 'learning_online_before_enroll_button' ); ?>
+                                Enroll
+                                <?php do_action( 'learning_online_after_enroll_button' ); ?>
+                            </a>
+                        </div>
 					</div>
 				</div>
 			</div>
