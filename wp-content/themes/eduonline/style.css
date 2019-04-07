@@ -11051,7 +11051,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 }
 .jws_theme_footer .jws_theme_footer_center_four ul li strong { display:block; }
 .jws_theme_footer .jws_theme_footer_center_four ul li >div {
-  width:calc( 100% - 45px);
+  width:calc( 100% - 47px);
   display:inline-block;
   margin-left:-5px;
   vertical-align:top;
