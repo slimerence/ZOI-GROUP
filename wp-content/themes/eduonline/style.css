@@ -197,6 +197,8 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
   font-style: normal;
 }
 
+body,html{ font-size:17px; font-family: 'GravurCondensed-Regular'; font-weight:400; line-height:22px; }
+
 
 .easing-animation {
   -webkit-transition:all 0.4s;
