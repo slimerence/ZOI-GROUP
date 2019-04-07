@@ -125,7 +125,7 @@ if ( !function_exists( '_learning_online_custom_course_tabs' ) ) {
 			);
 		}
 
-		// Curriculum
+		/*// Curriculum
 		$defaults['curriculum'] = array(
 			'title'    => __( 'Lessons', 'eduonline' ),
 			'priority' => 30,
@@ -146,7 +146,7 @@ if ( !function_exists( '_learning_online_custom_course_tabs' ) ) {
 			'priority' => 50,
 			'callback' => 'learning_online_course_trailer_tab'
 		); 
-		
+		*/
 		
 		/**
 		 * Active Curriculum tab if user has enrolled course
