@@ -135,6 +135,69 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 /* Video */
 /* SECTION */
 /*Responsive mobile row*/
+
+
+@font-face {
+  font-family: 'GravurCondensed-Bold';
+  src: url('fonts/GravurCondensed-Bold.eot');
+  src: url('fonts/GravurCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GravurCondensed-Bold.woff2') format('woff2'),
+  url('fonts/GravurCondensed-Bold.woff') format('woff'),
+  url('fonts/GravurCondensed-Bold.ttf') format('truetype'),
+  url('fonts/GravurCondensed-Bold.svg#GravurCondensed-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GravurCondensed-Black';
+  src: url('fonts/GravurCondensed-Black.eot');
+  src: url('fonts/GravurCondensed-Black.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GravurCondensed-Black.woff2') format('woff2'),
+  url('fonts/GravurCondensed-Black.woff') format('woff'),
+  url('fonts/GravurCondensed-Black.ttf') format('truetype'),
+  url('fonts/GravurCondensed-Black.svg#GravurCondensed-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GravurCondensed-Regular';
+  src: url('fonts/GravurCondensed-Regular.eot');
+  src: url('fonts/GravurCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GravurCondensed-Regular.woff2') format('woff2'),
+  url('fonts/GravurCondensed-Regular.woff') format('woff'),
+  url('fonts/GravurCondensed-Regular.ttf') format('truetype'),
+  url('fonts/GravurCondensed-Regular.svg#GravurCondensed-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GravurCondensed-Light';
+  src: url('fonts/GravurCondensed-Light.eot');
+  src: url('fonts/GravurCondensed-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GravurCondensed-Light.woff2') format('woff2'),
+  url('fonts/GravurCondensed-Light.woff') format('woff'),
+  url('fonts/GravurCondensed-Light.ttf') format('truetype'),
+  url('fonts/GravurCondensed-Light.svg#GravurCondensed-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GravurCondensed-Thin';
+  src: url('fonts/GravurCondensed-Thin.eot');
+  src: url('fonts/GravurCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GravurCondensed-Thin.woff2') format('woff2'),
+  url('fonts/GravurCondensed-Thin.woff') format('woff'),
+  url('fonts/GravurCondensed-Thin.ttf') format('truetype'),
+  url('fonts/GravurCondensed-Thin.svg#GravurCondensed-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
 .easing-animation {
   -webkit-transition:all 0.4s;
   -moz-transition:all 0.4s;
@@ -1276,7 +1339,10 @@ mark {
   border-radius:50%;
   background:transparent;
   border:1px solid #f1f1f1;
-  font-family:Noto Serif;
+  /*
+  font-family:GravurCondensed-Regular;
+  */
+  font-family: "GravurCondensed-Regular";
   padding:0;
   font-weight:bold;
   text-align:center;
@@ -1376,7 +1442,7 @@ mark {
 .jws_theme_footer .newsletter form p +p .newsletter-submit {
   z-index:2;
   position:relative;
-  font-family:"Noto Serif";
+  font-family:"GravurCondensed-Regular";
   font-size:14px;
 }
 .jws_theme_footer .newsletter form p +p:hover:after { color:#44a676; }
@@ -3626,7 +3692,7 @@ embed, iframe, object, video {
   line-height:46px;
   text-align:center;
   background-color:#252525;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   margin-right:0;
   margin-left:auto;
   display:block;
@@ -3689,13 +3755,13 @@ embed, iframe, object, video {
   color:#252525;
   font-size:24px;
   text-transform:uppercase;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   margin-bottom:40px;
 }
 .tb-blog-related .tb_blog_content .blog-title {
   color:#111111;
   font-size:14px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   line-height:18px;
   font-weight:bold;
   margin-top:10px;
@@ -7104,7 +7170,7 @@ body .vc_images_carousel:hover .vc_carousel-control { opacity:1; }
   white-space:nowrap;
   margin-bottom:13px;
   font-size:14px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
 }
 .sidebar-area.blog-sidebar .widget, .widget-area.blog-sidebar .widget { margin-bottom:40px; }
 .sidebar-area.blog-sidebar .widget li a, .widget-area.blog-sidebar .widget li a {
@@ -7144,7 +7210,7 @@ body .vc_images_carousel:hover .vc_carousel-control { opacity:1; }
   line-height:50px;
   padding-left:20px;
   text-transform:uppercase;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
 }
 .sidebar-area .widget ul.tb-course-categories >li ul, .widget-area .widget ul.tb-course-categories >li ul {
@@ -8342,7 +8408,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   }
   .tb-menu-list > ul#nav > li.menu-item-has-children.has_full_width > ul .menu-item-has-children >a, .tb-menu-list > ul#nav1 > li.menu-item-has-children.has_full_width > ul .menu-item-has-children >a {
     font-size:16px;
-    font-family:Noto Serif;
+    font-family:GravurCondensed-Regular;
     color:#fff;
     text-transform:uppercase;
     font-weight:bold;
@@ -8988,7 +9054,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   line-height:47px;
   text-align:center;
   color:#fff;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-size:18px;
   display:block;
   border:1px solid #fff;
@@ -9019,7 +9085,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   }
 }
 .tb-service-wrap .tb-service.tpl1 .tb-content {
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-size:18px;
   line-height:30px;
   max-width:915px;
@@ -9050,7 +9116,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   font-size:50px;
 }
 .tb-service-wrap .tb-service.tpl .tb-title {
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-size:14px;
   line-height:36px;
   font-weight:bold;
@@ -9151,7 +9217,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 }
 .tb-service-wrap .tb-service.tpl3 .tb-title span.text1, .tb-service-wrap .tb-service.tpl3 .tb-title span.text2 {
   font-size:42px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   line-height:52px;
   font-weight:normal;
 }
@@ -9629,7 +9695,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   font-size:40px;
   color:#44a676;
   font-weight:bold;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   line-height:45px;
 }
 .tb-course-item .tb-blog-content ul.tb-course-meta { margin-bottom:20px; }
@@ -9760,14 +9826,14 @@ ul.ro-list-inline-block li { display:inline-block; }
   padding-left:20px;
   padding-right:20px;
   font-size:14px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
 }
 .course-summary .course-price {
   font-size:40px;
   color:#44a676;
   font-weight:bold;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   line-height:45px;
 }
 .course-summary .tb-pricce-cart {
@@ -9850,7 +9916,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   line-height:18px;
   color:#fff;
   padding-top:8px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
   position:absolute;
   z-index:3;
@@ -9944,7 +10010,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   color:#707070;
   margin-top:18px;
   text-transform:uppercase;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
 }
 .tb-blog-carousel.featured .course .tb-content .tb-lesson .author-name { position:relative; }
@@ -9990,7 +10056,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 .tb-blog-carousel.featured .course .tb-content .tb-price .course-price {
   font-size:24px;
   color:#44a676;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
 }
 .tb-blog-carousel.featured .course:hover .tb-content { background-color:#fff; }
@@ -10061,7 +10127,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   color:#252525;
   font-size:24px;
   line-height:45px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   text-transform:uppercase;
   margin:30px 0;
   pointer-events:none;
@@ -10189,7 +10255,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   background-color:#ebebeb;
   font-size:14px;
   color:#252525;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
   -webkit-border-radius:0;
   -moz-border-radius:0;
@@ -10215,7 +10281,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   line-height:38px;
   text-align:center;
   color:#747474;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-size:16px;
   display:block;
   border:1px solid #D3D3D3;
@@ -10242,7 +10308,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 .learning-online-tabs ul.learning-online-nav-tabs > li.learning-online-nav-tab a {
   text-transform:uppercase;
   font-size:14px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
 }
 .learning-online-tabs ul.learning-online-nav-tabs > li.learning-online-nav-tab.active {
@@ -10412,7 +10478,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   text-transform:uppercase;
   color:#fff;
   font-size:14px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
 }
 .search-course-container form input[type="submit"]:hover {
@@ -10508,7 +10574,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   color:#fff;
   background-color:#44a676;
   font-size:23px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
   display:block;
   -webkit-transition:all 0.4s;
@@ -10520,7 +10586,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 .tb-step-register .tb-step-item h4 {
   font-size:14px;
   color:#707070;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   -webkit-transition:all 0.4s;
   -moz-transition:all 0.4s;
   -o-transition:all 0.4s;
@@ -10550,7 +10616,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   height:auto;
 }
 .error404 h4 {
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-size:24px;
   color:#fff;
   margin-bottom:17px;
@@ -10568,7 +10634,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   line-height:42px;
   text-transform:uppercase;
   font-size:14px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
   margin:auto;
   display:block;
@@ -10924,7 +10990,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 .jws_theme_footer .jws_theme_footer_center_three ul li:hover a { color:#44a676; }
 .jws_theme_footer .jws_theme_footer_bottom_once {
   color:#898989;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
 }
 .jws_theme_footer .widget_jws_theme_testimonial .wg-title { margin-bottom:25px; }
 .jws_theme_footer .widget_jws_theme_testimonial li {
@@ -11223,7 +11289,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   margin-top:10px;
   font-size:18px;
   font-style:italic;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
   position:absolute;
   right:0;
@@ -11260,11 +11326,11 @@ ul.ro-list-inline-block li { display:inline-block; }
 .text-aboutus-top h4, .text-aboutus-bottom h4 {
   color:#363636;
   font-size:28px;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
 }
 .wpcf7 .wpcf7_title {
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
   color:#363636;
   font-size:24px;
@@ -11312,7 +11378,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   }
 }
 .tb-contactus h4 {
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   font-weight:bold;
   color:#363636;
   font-size:24px;
@@ -11327,7 +11393,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 .tb-contactus ul li { line-height:32px; }
 .tb-contactus ul li strong {
   display:block;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   color:#363636;
   font-size:14px;
 }
@@ -11351,7 +11417,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 #tb-list-portfolio .controls-filter li a {
   font-size:14px;
   font-weight:bold;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   color:#898989;
   border:2px solid #898989;
   padding:0px 20px;
@@ -11370,7 +11436,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 #tb-list-portfolio .pagination.ajax a {
   font-size:14px;
   font-weight:bold;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   color:#898989;
   border:2px solid #898989;
   padding:0px 20px;
@@ -11384,7 +11450,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 }
 .portfolio .tb-post-item .tb-content-block h4 {
   color:#898989;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   text-transform:uppercase;
   font-size:24px;
   font-weight:bold;
@@ -11565,7 +11631,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   padding-left:30px;
 }
 .tb-blog.entry-listing article .tb-event-content .blog-title {
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   text-transform:capitalize;
   margin-bottom:12px;
 }
@@ -11598,7 +11664,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 .tb-blog.entry-listing article .tb-event-content .tb-event-social >span {
   max-width:80px;
   display:inline-block;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   color:#363636;
   font-size:14px;
   font-weight:bold;
@@ -11670,7 +11736,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 }
 .single-event article .tb-event-content ul li:not(:last-child) { border-bottom:1px dashed #ebebeb; }
 .single-event article .tb-event-content .blog-title {
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   text-transform:uppercase;
   margin-bottom:12px;
 }
@@ -11705,7 +11771,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 .single-event article .tb-event-content .tb-event-social .tb-title-socials {
   max-width:80px;
   display:inline-block;
-  font-family:Noto Serif;
+  font-family:GravurCondensed-Regular;
   color:#363636;
   font-size:14px;
   font-weight:bold;
