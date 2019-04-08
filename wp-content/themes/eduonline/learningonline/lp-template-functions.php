@@ -214,7 +214,7 @@ if ( !function_exists( 'learning_online_course_work_tab' ) ) {
      *
      * @since 1.1
      */
-    function learning_online_course_trailer_tab() {
+    function learning_online_course_work_tab() {
         learning_online_get_template( 'single-course/tabs/work.php' );
     }
 }
@@ -224,7 +224,7 @@ if ( !function_exists( 'learning_online_course_path_tab' ) ) {
      *
      * @since 1.1
      */
-    function learning_online_course_trailer_tab() {
+    function learning_online_course_path_tab() {
         learning_online_get_template( 'single-course/tabs/path.php' );
     }
 }
@@ -235,7 +235,7 @@ if ( !function_exists( 'learning_online_course_fee_tab' ) ) {
      *
      * @since 1.1
      */
-    function learning_online_course_trailer_tab() {
+    function learning_online_course_fee_tab() {
         learning_online_get_template( 'single-course/tabs/fee.php' );
     }
 }
@@ -246,7 +246,7 @@ if ( !function_exists( 'learning_online_course_stats_tab' ) ) {
      *
      * @since 1.1
      */
-    function learning_online_course_trailer_tab() {
+    function learning_online_course_stats_tab() {
         learning_online_get_template( 'single-course/tabs/stats.php' );
     }
 }
