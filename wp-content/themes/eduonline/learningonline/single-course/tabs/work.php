@@ -6,9 +6,8 @@
  * Time: 11:44
  */
 
-$post = get_post(1238);
+$content=apply_filters('the_content', get_post_field('post_content', 1238));
 
-$content = $post->post_content;
 
-echo do_shortcode($post['post_content']);
+echo $content;
 
