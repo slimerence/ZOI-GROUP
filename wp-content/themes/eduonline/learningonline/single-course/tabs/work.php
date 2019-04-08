@@ -8,6 +8,8 @@
 
 $post = get_post(1238);
 
-$content = $post->post_content_filtered;
+$content = $post->post_content;
+
+var_dump($content);
 
 echo $content;
