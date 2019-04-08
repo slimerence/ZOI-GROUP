@@ -9,7 +9,4 @@
 $post = get_post(1238);
 
 $content = $post->post_content;
-
-
-
-var_dump(apply_filters($content));
+echo do_shortcode($content);
