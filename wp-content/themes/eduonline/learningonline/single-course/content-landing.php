@@ -79,6 +79,7 @@ if ( !defined( 'ABSPATH' ) ) {
 								?>
 							</li>
 						<?php }?>
+                        <?php if(false):; ?>
 						<?php if($show_duration_time) { ?>
 							<li>
 								<i class="fa fa-hourglass-o"></i>
