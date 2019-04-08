@@ -12,4 +12,4 @@ $content = $post->post_content;
 
 
 
-var_dump($content);
+var_dump(apply_filters($content));
