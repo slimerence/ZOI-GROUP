@@ -6,3 +6,6 @@
  * Time: 11:44
  */
 
+$post = get_post(1238);
+
+var_dump($post);
