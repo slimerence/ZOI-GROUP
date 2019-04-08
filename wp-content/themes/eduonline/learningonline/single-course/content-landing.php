@@ -88,7 +88,7 @@ if ( !defined( 'ABSPATH' ) ) {
 								?>
 							</li>
 						<?php }?>
-
+                        <?php endif ?>
 					</ul>
 					<div class="tb-pricce-cart">
 						<?php if(false):; ?>
