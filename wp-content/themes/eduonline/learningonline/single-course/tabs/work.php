@@ -11,5 +11,3 @@ $post = get_post(1238);
 $content = $post->post_content;
 $output =  do_shortcode($post['post_content']);
 
-
-echo $output;
