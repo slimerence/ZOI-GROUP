@@ -147,8 +147,32 @@ if ( !function_exists( '_learning_online_custom_course_tabs' ) ) {
 			'callback' => 'learning_online_course_trailer_tab'
 		); 
 		*/
-		
-		/**
+
+        $defaults['work'] = array(
+            'title'    => __( 'Work Placement Program', 'eduonline' ),
+            'priority' => 20,
+            'callback' => 'learning_online_course_work_tab'
+        );
+
+        $defaults['path'] = array(
+            'title'    => __( 'Pathways', 'eduonline' ),
+            'priority' => 30,
+            'callback' => 'learning_online_course_path_tab'
+        );
+
+        $defaults['fee'] = array(
+            'title'    => __( 'Course Fees', 'eduonline' ),
+            'priority' => 40,
+            'callback' => 'learning_online_course_fee_tab'
+        );
+
+        $defaults['stats'] = array(
+            'title'    => __( 'Industry Stats', 'eduonline' ),
+            'priority' => 50,
+            'callback' => 'learning_online_course_stats_tab'
+        );
+
+        /**
 		 * Active Curriculum tab if user has enrolled course
 		 */
 		if ( $user->has_course_status( $course->id, array( 'enrolled' ) ) ) {
@@ -182,6 +206,49 @@ if ( !function_exists( 'learning_online_course_trailer_tab' ) ) {
 	function learning_online_course_trailer_tab() {
 		learning_online_get_template( 'single-course/tabs/trailer.php' );
 	}
+}
+
+if ( !function_exists( 'learning_online_course_work_tab' ) ) {
+    /**
+     * Output course curriculum
+     *
+     * @since 1.1
+     */
+    function learning_online_course_trailer_tab() {
+        learning_online_get_template( 'single-course/tabs/work.php' );
+    }
+}
+if ( !function_exists( 'learning_online_course_path_tab' ) ) {
+    /**
+     * Output course curriculum
+     *
+     * @since 1.1
+     */
+    function learning_online_course_trailer_tab() {
+        learning_online_get_template( 'single-course/tabs/path.php' );
+    }
+}
+
+if ( !function_exists( 'learning_online_course_fee_tab' ) ) {
+    /**
+     * Output course curriculum
+     *
+     * @since 1.1
+     */
+    function learning_online_course_trailer_tab() {
+        learning_online_get_template( 'single-course/tabs/fee.php' );
+    }
+}
+
+if ( !function_exists( 'learning_online_course_stats_tab' ) ) {
+    /**
+     * Output course curriculum
+     *
+     * @since 1.1
+     */
+    function learning_online_course_trailer_tab() {
+        learning_online_get_template( 'single-course/tabs/stats.php' );
+    }
 }
 
 function jws_theme_sort_by_page($count) {
