@@ -9,7 +9,7 @@
 $post = get_post(1238);
 
 $content = $post->post_content;
-$output =  do_shortcode($post['post_content']);
-var_dump($output);
 
-echo $output;
+var_dump($content);
+
+echo $content;
