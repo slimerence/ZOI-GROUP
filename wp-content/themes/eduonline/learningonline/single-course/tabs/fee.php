@@ -9,7 +9,7 @@
 $course = learning_online_get_the_course();
 
 if($course->id == 665){
-    $post = get_post(1386);
+    $post = get_post(1728);
 }else{
     $post = get_post(1386);
 }
