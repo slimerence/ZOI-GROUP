@@ -8784,7 +8784,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 @media (min-width: 992px) and (max-width: 1270px) {
   .tb-header-v1:not(.tb-header-v2) .tb-logo { position:relative; }
   .tb-header-v1:not(.tb-header-v2) .tb-logo img {
-    max-width:200px;
+    max-width:100px;
     position:absolute;
     top:50%;
     transform:translateY(-50%);
