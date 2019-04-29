@@ -165,6 +165,16 @@ if ( !function_exists( '_learning_online_custom_course_tabs' ) ) {
             'priority' => 40,
             'callback' => 'learning_online_course_fee_tab'
         );
+        $defaults['entry'] = array(
+            'title'    => __( 'Entry Requirements', 'eduonline' ),
+            'priority' => 45,
+            'callback' => 'learning_online_course_entry_tab'
+        );
+        $defaults['intake'] = array(
+            'title'    => __( 'Intake Dates', 'eduonline' ),
+            'priority' => 35,
+            'callback' => 'learning_online_course_intake_tab'
+        );
 
         $defaults['stats'] = array(
             'title'    => __( 'Industry Stats', 'eduonline' ),
@@ -237,6 +247,27 @@ if ( !function_exists( 'learning_online_course_fee_tab' ) ) {
      */
     function learning_online_course_fee_tab() {
         learning_online_get_template( 'single-course/tabs/fee.php' );
+    }
+}
+
+if ( !function_exists( 'learning_online_course_intake_tab' ) ) {
+    /**
+     * Output course curriculum
+     *
+     * @since 1.1
+     */
+    function learning_online_course_intake_tab() {
+        learning_online_get_template( 'single-course/tabs/intake.php' );
+    }
+}
+if ( !function_exists( 'learning_online_course_entry_tab' ) ) {
+    /**
+     * Output course curriculum
+     *
+     * @since 1.1
+     */
+    function learning_online_course_entry_tab() {
+        learning_online_get_template( 'single-course/tabs/entry.php' );
     }
 }
 
