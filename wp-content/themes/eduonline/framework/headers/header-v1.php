@@ -94,10 +94,8 @@
 				</div>
 			</div>
 		</div>
-			
 	</div>
-	<div style="clear: both"></div>
-</div>
+<div style="clear: both"></div>
 <div class="jws_theme_menu_mobi">
 	<div class="tb-menu">
 		<?php
