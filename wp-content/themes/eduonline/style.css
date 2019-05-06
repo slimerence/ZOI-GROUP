@@ -11825,3 +11825,17 @@ ul.ro-list-inline-block li { display:inline-block; }
     text-align:left;
   }
 }
+
+.top-bar{
+  width: 100%;
+}
+
+.top-bar .top-right{
+  display: inline-block;
+  margin-left: auto;
+  padding: 0.3em 1em;
+}
+
+.top-bar .top-right a{
+  color:#fff;
+}
