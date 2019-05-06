@@ -9,27 +9,27 @@
     if($jws_theme_options['jws_theme_stick_header']) $jws_theme_header_class[] = 'tb-header-stick';
 
 ?>
-<div class="tb-header-wrap tb-header-v1 <?php echo esc_attr(implode(' ', $jws_theme_header_class)); ?>">
-    <div class="top-bar hidden-sm hidden-xs" style="background-color: #44a676;" >
-        <div class="top-right">
-            <a href="tel:+610383474100" target="_blank">
+<div class="top-bar hidden-sm hidden-xs" style="background-color: #44a676;" >
+    <div class="top-right">
+        <a href="tel:+610383474100" target="_blank">
             <i class="fa fa-phone"></i>
             +61 3 8347 4100
-            </a>
-        </div>
-        <div class="top-right">
-            <a href="mailto:info@zoi.vic.edu.au" target="_blank">
+        </a>
+    </div>
+    <div class="top-right">
+        <a href="mailto:info@zoi.vic.edu.au" target="_blank">
             <i class="fa fa-envelope"></i>
             info@zoi.vic.edu.au
-            </a>
-        </div>
-        <div class="top-right">
-            <a href="https://apps.wisenet.co/login.aspx" target="_blank">
+        </a>
+    </div>
+    <div class="top-right">
+        <a href="https://apps.wisenet.co/login.aspx" target="_blank">
             <i class="fa fa-user"></i>
             My Zoi
-            </a>
-        </div>
+        </a>
     </div>
+</div>
+<div class="tb-header-wrap tb-header-v1 <?php echo esc_attr(implode(' ', $jws_theme_header_class)); ?>">
 	<div class="tb-logo logo-hidden-mobi pull-left hidden-sm hidden-xs">
 		<a href="<?php echo esc_url(home_url()); ?>">
 			<?php jws_theme_theme_logo(); ?>

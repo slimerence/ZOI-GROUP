@@ -11828,6 +11828,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 
 .top-bar{
   width: 100%;
+  text-align: right;
 }
 
 .top-bar .top-right{
