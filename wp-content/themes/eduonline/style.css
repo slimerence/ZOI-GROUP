@@ -11829,6 +11829,8 @@ ul.ro-list-inline-block li { display:inline-block; }
 .top-bar{
   width: 100%;
   text-align: right;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .top-bar .top-right{
@@ -11839,4 +11841,7 @@ ul.ro-list-inline-block li { display:inline-block; }
 
 .top-bar .top-right a{
   color:#fff;
+  display: inline;
+  padding: 0.2em;
+
 }

@@ -32,18 +32,12 @@
         <a href="https://www.instagram.com/zoi_education/" target="_blank">
             <i class="fa fa-instagram"></i>
         </a>
-    </div>
-    <div class="top-right">
         <a href="https://twitter.com/Zoi_Education" target="_blank">
             <i class="fa fa-twitter"></i>
         </a>
-    </div>
-    <div class="top-right">
         <a href="https://www.facebook.com/ZoiTraining" target="_blank">
             <i class="fa fa-facebook"></i>
         </a>
-    </div>
-    <div class="top-right">
         <a href="https://mp.weixin.qq.com/s/-1uV54NhZB87e76jEoTzfg" target="_blank">
             <i class="fa fa-wechat"></i>
         </a>
