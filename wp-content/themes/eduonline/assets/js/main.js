@@ -343,7 +343,7 @@ var EduonlineObj = {
 			});
 		// }, 1000);
 	},
-	jws_theme_incremental: function(){
+	/*jws_theme_incremental: function(){
 		var _increment = $('.tb-counter');
 		if( _increment.length === 0 ) return;
 			_increment.each( function(){
@@ -352,7 +352,7 @@ var EduonlineObj = {
 					time: 1000
 				});
 		})
-	},
+	},*/
 	jws_theme_disabled_on_mobile: function(){
 		if( ! window.jws_theme_is_mobile_tablet ) return;
 		$('.product').on('click', '.tb-image', function(e){
