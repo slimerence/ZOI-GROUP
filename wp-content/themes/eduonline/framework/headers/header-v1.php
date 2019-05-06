@@ -9,6 +9,47 @@
     if($jws_theme_options['jws_theme_stick_header']) $jws_theme_header_class[] = 'tb-header-stick';
 
 ?>
+<div class="top-bar hidden-sm hidden-xs" style="background-color: #44a676;" >
+    <div class="top-right">
+        <a href="tel:+610383474100" target="_blank">
+            <i class="fa fa-phone"></i>
+            +61 3 8347 4100
+        </a>
+    </div>
+    <div class="top-right">
+        <a href="mailto:info@zoi.vic.edu.au" target="_blank">
+            <i class="fa fa-envelope"></i>
+            info@zoi.vic.edu.au
+        </a>
+    </div>
+    <div class="top-right">
+        <a href="https://apps.wisenet.co/login.aspx" target="_blank">
+            <i class="fa fa-user"></i>
+            My Zoi
+        </a>
+    </div>
+    <div class="top-right">
+        <a href="https://www.instagram.com/zoi_education/" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+    </div>
+    <div class="top-right">
+        <a href="https://twitter.com/Zoi_Education" target="_blank">
+            <i class="fa fa-twitter"></i>
+        </a>
+    </div>
+    <div class="top-right">
+        <a href="https://www.facebook.com/ZoiTraining" target="_blank">
+            <i class="fa fa-facebook"></i>
+        </a>
+    </div>
+    <div class="top-right">
+        <a href="https://mp.weixin.qq.com/s/-1uV54NhZB87e76jEoTzfg" target="_blank">
+            <i class="fa fa-wechat"></i>
+        </a>
+    </div>
+</div>
+
 <div class="tb-header-wrap tb-header-v1 <?php echo esc_attr(implode(' ', $jws_theme_header_class)); ?>">
 
 	<div class="tb-logo logo-hidden-mobi pull-left hidden-sm hidden-xs">
