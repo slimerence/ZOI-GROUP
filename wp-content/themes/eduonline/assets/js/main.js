@@ -444,7 +444,7 @@ var EduonlineObj = {
 		EduonlineObj.jws_theme_carousel( 2, '.tb-blog-carousel' );
 		EduonlineObj.jws_theme_carousel( 3, '.tb-blog-carousel' );
 		EduonlineObj.jws_theme_carousel( 1, '.tb-blog-carousel' );
-		EduonlineObj.jws_theme_incremental();
+		/*EduonlineObj.jws_theme_incremental();*/
 		EduonlineObj.jws_theme_back_to_top();
 		EduonlineObj.jws_theme_disabled_on_mobile();
 		EduonlineObj.jws_theme_search_active();
