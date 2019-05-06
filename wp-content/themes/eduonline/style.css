@@ -8613,6 +8613,7 @@ ul.ro-list-inline-block li { display:inline-block; }
     background-color:rgba(255,255,255,0.9);
     left:0;
     right:0;
+    top:31px;
     width:100%;
     z-index:9999;
     -webkit-box-shadow:0px 1px 8px rgba(0,0,0,0.15);
@@ -11844,4 +11845,21 @@ ul.ro-list-inline-block li { display:inline-block; }
   display: inline;
   padding: 0.2em;
 
+}
+
+@media (min-width: 992px) {
+  .tb-stick-active .top-bar{
+    background-color: #44a676;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99999;
+    -webkit-box-shadow: 0px 1px 8px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 8px rgba(0,0,0,0.15);
+    -webkit-animation: fadeInUp 0.4s both;
+    -moz-animation: fadeInUp 0.4s both;
+    -o-animation: fadeInUp 0.4s both;
+    animation: fadeInUp 0.4s both;
+  }
 }
