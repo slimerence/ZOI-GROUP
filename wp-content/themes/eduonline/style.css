@@ -674,9 +674,6 @@ figure.effect-bubba:hover .vc_single_image-wrapper:before, figure.effect-bubba:h
 
 @keyframes opReset {
   0% {
-    opacity:1;
-  }
-  20% {
     opacity:0;
   }
   100% { opacity:1; }
@@ -11867,5 +11864,9 @@ ul.ro-list-inline-block li { display:inline-block; }
     z-index: 99999;
     -webkit-box-shadow: 0px 1px 8px rgba(0,0,0,0.15);
     box-shadow: 0px 1px 8px rgba(0,0,0,0.15);
+    -webkit-animation:opReset 0.4s ease-in-out;
+    -moz-animation:opReset 0.4s ease-in-out;
+    -o-animation:opReset 0.4s ease-in-out;
+    animation:opReset 0.4s ease-in-out;
   }
 }
