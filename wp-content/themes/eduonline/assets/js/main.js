@@ -546,15 +546,14 @@ $(document).ready(function() {
 	function ROHeaderStick() {
 		if( $('.tb-header-menu').length > 0 ){
 			if($( '.tb-header-wrap' ).hasClass( 'tb-header-stick' )) {
-
-				EduonlineObj.jws_theme_set_stick_bar();
+				$('body').addClass('tb-stick-active');
+/*				EduonlineObj.jws_theme_set_stick_bar();
 
 				$(window).on('scroll load resize', function() {
 					EduonlineObj.jws_theme_set_stick_bar();
-				});
+				});*/
 			}
 		}
-		
 	}
 	ROHeaderStick();
 	var jwsAnimation = {};
