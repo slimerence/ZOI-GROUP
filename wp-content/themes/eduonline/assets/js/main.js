@@ -179,7 +179,7 @@ var EduonlineObj = {
 				} else {
 					$('body').removeClass('tb-stick-active');
 				}
-			}, 500)
+			}, 0)
 			
 		}
 	},
@@ -546,12 +546,11 @@ $(document).ready(function() {
 	function ROHeaderStick() {
 		if( $('.tb-header-menu').length > 0 ){
 			if($( '.tb-header-wrap' ).hasClass( 'tb-header-stick' )) {
-				$('body').addClass('tb-stick-active');
-/*				EduonlineObj.jws_theme_set_stick_bar();
+				EduonlineObj.jws_theme_set_stick_bar();
 
 				$(window).on('scroll load resize', function() {
 					EduonlineObj.jws_theme_set_stick_bar();
-				});*/
+				});
 			}
 		}
 	}
