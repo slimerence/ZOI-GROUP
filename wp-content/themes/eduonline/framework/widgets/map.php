@@ -13,7 +13,7 @@ class JWS_Map_Widget extends RO_Widget {
 			),
 			'api_key'  => array(
 				'type'  => 'text',
-				'std'   => esc_html__( 'AIzaSyCyuW48kPjku1h6fle8WYwO1pKI3Hdp4wk', 'eduonline' ),
+				'std'   => esc_html__( 'AIzaSyAW23xpa7PWPIq-mFtgCX07KxUqPNvUXSo', 'eduonline' ),
 				"label" => __('Enter you api key of map, get key from (https://console.developers.google.com)', 'eduonline')
 			),
 			'address'  => array(
@@ -93,7 +93,7 @@ class JWS_Map_Widget extends RO_Widget {
                 
                 /* API Key */
 				if( empty($api) ){
-					$api = 'AIzaSyCyuW48kPjku1h6fle8WYwO1pKI3Hdp4wk';
+					$api = 'AIzaSyAW23xpa7PWPIq-mFtgCX07KxUqPNvUXSo';
 				}
 				$api_js = "https://maps.googleapis.com/maps/api/js?key=$api&sensor=false";
 				wp_enqueue_script('maps-googleapis',$api_js,array(),'3.0.0');

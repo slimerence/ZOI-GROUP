@@ -1,7 +1,7 @@
 <?php
 function ro_maps_render($params) {
     extract(shortcode_atts(array(
-    	'api'					=>	'AIzaSyCyuW48kPjku1h6fle8WYwO1pKI3Hdp4wk',
+    	'api'					=>	'AIzaSyAW23xpa7PWPIq-mFtgCX07KxUqPNvUXSo',
     	'address'				=>	'New York, United States',
     	'infoclick'				=>	'',
     	'coordinate'			=>	'',
@@ -27,7 +27,7 @@ function ro_maps_render($params) {
 	
     /* API Key */
     if( empty($api) ){
-        $api = 'AIzaSyCyuW48kPjku1h6fle8WYwO1pKI3Hdp4wk';
+        $api = 'AIzaSyAW23xpa7PWPIq-mFtgCX07KxUqPNvUXSo';
     }
     $api_js = "https://maps.googleapis.com/maps/api/js?key=$api";
     wp_enqueue_script('maps-googleapis',$api_js,array(),'3.0.0');
