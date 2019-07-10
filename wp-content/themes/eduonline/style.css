@@ -3581,8 +3581,8 @@ embed, iframe, object, video {
 }
 .deviation-blog.deviation-align-left .deviation-link-more, .deviation-feature-box.deviation-align-left .deviation-link-more { bottom:25px; }
 .deviation-blog.deviation-align-bottom .deviation-content-image width: 60%
-			img, .deviation-feature-box.deviation-align-bottom .deviation-content-image width: 60%
-			img { width:100%; }
+img, .deviation-feature-box.deviation-align-bottom .deviation-content-image width: 60%
+img { width:100%; }
 .deviation-blog.deviation-align-bottom .deviation-content-info, .deviation-feature-box.deviation-align-bottom .deviation-content-info {
   width:100%;
   transform:translateY(-30%);
@@ -8190,7 +8190,7 @@ ul.ro-list-inline-block li { display:inline-block; }
     -o-transition:all 0.4s !important;
     transition:all 0.4s !important;
     display:inline-block;
-    line-height:96px;
+    line-height:108px;
     color:#363636;
   }
   .tb-menu-list > ul#nav > li > a >span, .tb-menu-list > ul#nav1 > li > a >span { position:relative; }
@@ -8729,7 +8729,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   display:block;
 }
 @media (min-width: 992px) {
-  .tb-header-v1 { height:96px; }
+  .tb-header-v1 { height:108px; }
 }
 @media (min-width: 1200px) {
   .tb-header-v1 {
@@ -11402,7 +11402,7 @@ ul.ro-list-inline-block li { display:inline-block; }
   padding:0;
   list-style:none;
 }
-.tb-contactus ul li { line-height:32px; }
+.tb-contactus ul li { line-height:1.2em; }
 .tb-contactus ul li strong {
   display:block;
   font-family:GravurCondensed-Regular;
@@ -11844,14 +11844,14 @@ ul.ro-list-inline-block li { display:inline-block; }
 .top-bar .top-right{
   display: inline-block;
   margin-left: auto;
-  padding: 0.3em 1em;
+  padding: 0.45em 1em;
 }
 
 .top-bar .top-right a{
   color:#fff;
   display: inline;
   padding: 0.2em;
-
+  font-size:19px;
 }
 
 @media (min-width: 992px) {
@@ -11869,4 +11869,39 @@ ul.ro-list-inline-block li { display:inline-block; }
     -o-animation:opReset 0.4s ease-in-out;
     animation:opReset 0.4s ease-in-out;
   }
+}
+
+.learning-online-tab-panel ul li::before {
+  content: "\2022";  /* Add content: 2022 is the CSS Code/unicode for a bullet */
+  color: #44a676; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul{
+  margin-bottom:15px;
+}
+
+.wpforms-container ::-webkit-input-placeholder { /* Chrome and Safari */
+  color: #aaa;
+}
+
+.wpforms-container :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #aaa;
+  opacity: 1;
+}
+
+.wpforms-container ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #aaa;
+  opacity: 1;
+}
+
+.wpforms-container :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #aaa;
+}
+
+.wpforms-container ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #aaa;
 }
